@@ -1,1 +1,16 @@
+========================================================
+            ⚡ Advanced Multi-Threaded Port Scanner
+========================================================
 
+Enter the IP address to scan: XXX.XX.X.XX 
+Enter starting port: 1
+Enter ending port: 10000
+
+Scanning XXX.XX.X.XX from port 1 to 10000...
+
+Port 135 ➜ OPEN
+Port 139 ➜ OPEN
+Port 445 ➜ OPEN
+Port 5040 ➜ OPEN
+
+Scan complete ✔
