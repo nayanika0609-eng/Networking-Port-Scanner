@@ -23,7 +23,7 @@ Ensure Python 3 is installed.
 Clone the repository:
 
 ```bash
-git clone https://github.com/HimanshuBhat001/intelligent-port-scanner
+git clone https://github.com/nayanika0609-eng/Networking-port-scanner
 ```
 
 Navigate into the project:
@@ -49,7 +49,7 @@ Enter a target IP or domain (e.g., `scanme.nmap.org`).
 ## 📄 Sample Output
 
 ```
-=== Intelligent Port Scanner ===
+===   Networking Port Scanner ===
 
 Scanning target: scanme.nmap.org
 
