@@ -1,4 +1,4 @@
-#Networking Port Scanner
+# Networking Port Scanner
 
 A lightweight but insightful port scanner built using Python.  
 It detects open TCP ports, identifies associated services, and maps basic security risks.  
