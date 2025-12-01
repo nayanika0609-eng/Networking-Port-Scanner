@@ -1,69 +1,30 @@
-# Networking Port Scanner
+# 🔍 Advanced Multi-Threaded Port Scanner
 
-A lightweight but insightful port scanner built using Python.  
-It detects open TCP ports, identifies associated services, and maps basic security risks.  
-This project is ideal for learning socket programming, reconnaissance, and cybersecurity fundamentals.
-
----
-
-## 🔍 Features
-
-- Scans commonly used TCP ports
-- Identifies associated services (FTP, SSH, HTTP, MySQL…)
-- Provides security risk insight for known services
-- Clean, readable terminal output
-- Uses Python’s socket library (no external dependencies)
+A fast and efficient Python-based **Port Scanner** that scans a given IP address for open ports using **multi-threading** for high performance.  
+This tool is useful for learning networking concepts, ethical testing, and cybersecurity fundamentals.
 
 ---
 
-## 🛠 Installation
+## 🚀 Features
+- User inputs **only the target IP address**
+- Scans **any port range** (1–65535)
+- **Multi-threaded** → Extremely fast
+- Detects and prints **OPEN** ports
+- Clean error handling
+- Beginner-friendly and final-sem-ready
 
-Ensure Python 3 is installed.
+---
 
-Clone the repository:
+## 🧠 How It Works
+- Uses Python's `socket` module to attempt connections.
+- Each port is scanned in a separate **thread**, improving speed.
+- Successful connection → **OPEN**
+- Connection refused → **CLOSED**
 
+---
+
+## 📌 Usage
+
+### 1️⃣ Run the script:
 ```bash
-git clone https://github.com/nayanika0609-eng/Networking-port-scanner
-```
-
-Navigate into the project:
-
-```bash
-cd intelligent-port-scanner
-```
-
----
-
-## ▶️ How to Run
-
-Run the main script:
-
-```bash
-python src/port_scanner.py
-```
-
-Enter a target IP or domain (e.g., `scanme.nmap.org`).
-
----
-
-## 📄 Sample Output
-
-```
-===   Networking Port Scanner ===
-
-Scanning target: scanme.nmap.org
-
-[OPEN]   Port  22 (SSH)   → Risk: Low (encrypted, secure access)
-[OPEN]   Port  80 (HTTP)  → Risk: Medium (unencrypted traffic)
-[CLOSED] Port 443
-...
-
-Scan complete.
-```
-
-More examples available in:
-
-```
-examples/sample_output.txt
-`
-# Networking-Port-Scanner
+python advanced_port_scanner.py
