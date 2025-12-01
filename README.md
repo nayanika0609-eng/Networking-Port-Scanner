@@ -27,4 +27,16 @@ This tool is useful for learning networking concepts, ethical testing, and cyber
 
 ### 1️⃣ Run the script:
 ```bash
-python advanced_port_scanner.py
+python Networking_port_scanner.py
+## 📤 Example Output
+
+The sample output of the Advanced Port Scanner is available here:
+
+👉 [View Output Example](output_example.txt)
+
+This file shows the scanner running with:
+- User input for IP address
+- Port range 1–1000
+- Detected OPEN ports
+
+
