@@ -1,4 +1,4 @@
-🔍 Advanced Multi-Threaded Networking Port Scanner
+# Advanced Multi-Threaded Networking Port Scanner
 
 A fast and efficient Python-based Networking Port Scanner that scans a given IP address for open ports using multi-threading for high performance.
 This tool is ideal for learning networking concepts, ethical security testing, and understanding port communication.
@@ -88,6 +88,4 @@ requirements.txt should contain:
 This tool is intended for learning and authorized testing only.
 Do NOT scan networks without permission.
 
-⭐ Author
 
-Nayanika – CSE Student | Networking & Cybersecurity Enthusiast
